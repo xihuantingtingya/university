@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+    int i,j,n;  //i,j控制行或列
+    for(i=1;i<=9;i++)
+    {
+        for(j=1;j<=i;j++)
+        printf("%d*%d=%d\t",i,j,i*j);  //%d 控制宽度为一个字符，且右对齐；如果改为%-d，则为左对齐
+        printf("\n");                  //   \t为tab缩进
+    }
+}
