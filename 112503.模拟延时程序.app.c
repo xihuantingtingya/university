@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<windows.h>
+void main()
+{
+    printf("女:我不舒服\n");
+    Sleep(3000);
+    printf("男:多喝热水\n");
+    Sleep(3000);
+    printf("女:....\n");
+    Sleep(5000);
+    printf("女:外面好像下雨了,我没有带伞,你来接我吧\n");
+    Sleep(3000);
+    printf("男:好，我出门了\n");
+    Sleep(3000);
+    printf("男:我买好了\n");
+    Sleep(3000);
+    printf("女:给我看看\n");
+    Sleep(3000);
+    printf("男:还没发货");
+    Sleep(3000);
+}
