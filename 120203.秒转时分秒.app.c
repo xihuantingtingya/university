@@ -9,7 +9,7 @@ void main()
         a=x/3600;       // 求小时
         b=(x%3600)/60;  //求分钟
         c=x-3600*a-60*b;//求秒
-        printf("%d时：%d分：%d秒",a,b,c);
+        printf("%02d时：%02d分：%02d秒",a,b,c);
     }
     else
     {
