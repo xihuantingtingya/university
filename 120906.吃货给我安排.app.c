@@ -7,7 +7,7 @@ void main()
     scanf("%s",a);
     if(!strcmp(a,"春节"))
     {
-        printf("给我安排饺子！",a);
+        printf("给我安排饺子！");
     }
     else if(!strcmp(a,"端午节"))
     {
