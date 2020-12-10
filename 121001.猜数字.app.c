@@ -18,7 +18,7 @@ void main()
         i--;
         scanf("%d",&x);
         system("color F1");
-        if(i==0)
+        if(i<0)
         {
             printf("您的机会用光啦\n");
             printf("游戏结束了哦，憨憨");
