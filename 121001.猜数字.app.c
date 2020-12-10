@@ -12,9 +12,16 @@ void main()
     if(!strcmp(m,"曹"))
     {
         printf("请输入您心目中的数字,1到20以内哦:\n");
+        printf("请输入:");
         while(x)
         {
         scanf("%d",&x);
+        if(x>20)
+            {
+                printf("说好了1到20以内，你咋不遵守规则呢？\n");
+                printf("这下好了吧，游戏结束了");
+                break;
+            }
             if(x>y)
             {
                 printf("您输入的值太大啦\n");
