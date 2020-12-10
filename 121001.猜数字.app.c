@@ -16,6 +16,7 @@ void main()
         while(x)
         {
         scanf("%d",&x);
+        system("color F1");
         if(x>20)
             {
                 printf("说好了1到20以内，你咋不遵守规则呢？\n");
