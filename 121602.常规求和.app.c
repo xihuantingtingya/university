@@ -6,23 +6,29 @@ void main()
     printf("请输入：");
     while(1)
     {
-    m--;
-    if(m<0)
-    {
-        printf("您操作本次程序的机会用光了哦");
-        break;
-    }
-    if(j>=0)
-    {
-        scanf("%d",&j);
-        printf("从1加到%d",j);
-        k=(i+j)*(j)/2;
-        printf("求和后的值:%d",k);
-        printf("\n您还有%d次操作改程序的机会\n请再次输入:",m);
-    }
-    else
-    {
-        printf("输入有误，请重新输入！");
-    }
+        m--;
+        if(m<0)
+        {
+            printf("求和后的值:%d",k);
+            printf("您操作本次程序的机会用光了哦");
+            break;
+        }
+        else
+        {
+            scanf("%d",&j);
+            k=(i+j)*(j)/2;
+            if(j>=0)
+            {
+                printf("计算从1加到%d\n",j);
+                printf("求和后的值:%d",k);
+                printf("\n您还有%d次操作改程序的机会\n",m);
+                printf("请再次输入:");
+            }
+            else
+            {
+                printf("输入有误，请重新输入！");
+                break;
+            }
+        }
     }
 }
