@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main()
+{
+    int i=1,j,k,m=5;
+    printf("请问您想从1加到多少呢?\n");
+    printf("请输入：");
+    while(1)
+    {
+    m--;
+    if(m<0)
+    {
+        printf("您操作本次程序的机会用光了哦");
+        break;
+    }
+    if(j>=0)
+    {
+        scanf("%d",&j);
+        printf("从1加到%d",j);
+        k=(i+j)*(j)/2;
+        printf("求和后的值:%d",k);
+        printf("\n您还有%d次操作改程序的机会\n请再次输入:",m);
+    }
+    else
+    {
+        printf("输入有误，请重新输入！");
+    }
+    }
+}
