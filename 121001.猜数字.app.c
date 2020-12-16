@@ -13,17 +13,19 @@ void main()
     {
         printf("请输入您心目中的数字,1到20以内哦:\n");
         printf("请输入:");
-        while(x)
+        while(1)
         {
         i--;
         scanf("%d",&x);
         system("color F1");
-        if(i<0)
+        if(i<=0)
         {
             printf("您的机会用光啦\n");
             printf("游戏结束了哦，憨憨");
             break;
         }
+        else
+        {
         if(x>20)
             {
                 printf("说好了1到20以内，你咋不遵守规则呢？\n");
@@ -35,12 +37,6 @@ void main()
                 printf("您输入的值太大啦\n");
                 printf("您还有%d次机会\n",i);
                 printf("请您重新输入:");
-                if(i=0)
-        {
-            printf("您的机会用光啦\n");
-            printf("游戏结束了哦，憨憨");
-            break;
-        }
             }
         else if(x<y)
             {
@@ -55,6 +51,7 @@ void main()
                 break;
             }
         }
+        }
 
     }
     else
@@ -62,4 +59,3 @@ void main()
         printf("这么帅的老师姓什么都不知道，还想玩游戏，想屁吃");
     }
 }
-
